@@ -1,0 +1,35 @@
+{
+  "grammars": [
+    {
+      "name": "modu",
+      "camelcase": "Modu",
+      "scope": "source.modu",
+      "file-types": [
+        ".modu"
+      ],
+      "injection-regex": "^modu$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "parser for modu :3",
+    "authors": [
+      {
+        "name": "aquiffoo",
+        "url": "https://aquiffoo.vercel.app/"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/LearnModu/modu-lsp"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
